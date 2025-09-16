@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff7e6;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffcc80;
+}
+
+h1 {
+  margin: 0;
+}
+
+section#products {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section#products h2 {
+    text-align: center;
+    margin-bottom: 30px; /* Heading ke niche gap */
+}
+
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: #fff3e0;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #ff9800;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.product-card a:hover {
+  background-color: #e65100;
+}
+
+
+.product-card b {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #ff9800;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.product-card a:hover {
+  background-color: #e65100;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #ffcc80;
+}
